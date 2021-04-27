@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Taksowka</string>
+
+    <string name="notification_channel_default">driver_auto_notification_channel_id</string>
+    <string name="hire_notification_channel_default">hire_notification_channel_id</string>
+
+    <string name="MAP_KEY_TOKEN">sk.eyJ1IjoibG9nY2F0MjAyMCIsImEiOiJja2gxeWhvamMwOWw4MzBsc2huaTNzeHRwIn0.P5nQbouX_frnt5w-l58MPg</string>
+    <string name="MAP_STREET_STYLE">mapbox://styles/logcat2020/ckh1ykb8g08mq1alebrijatai</string>
+    <string name="TILESET_ID">mapbox.mapbox-streets-v8</string>
+    <string name="DESTINATION_ICON_ID">DESTINATION_ICON_ID</string>
+    <string name="SOURCE_ICON_ID">SOURCE_ICON_ID</string>
+    <string name="stand_details">സ്റ്റാൻഡ് വിവരങ്ങൾ</string>
+
+    <string name="Privacy_Policy">സ്വകാര്യതാനയം</string>
+    <string name="Help_Center">സഹായകേന്ദ്രം</string>
+    <string name="About_Us">ഞങ്ങളേക്കുറിച്ച്</string>
+    <string name="Log_Out">ലോഗ് ഔട്ട് ചെയ്യുക</string>
+
+    <string name="settings">ക്രമീകരണങ്ങൾ</string>
+
+    <string name="contact_us">ഞങ്ങളെ ബന്ധപ്പെടുക</string>
+    <string name="warning_text">ഈ പ്രദേശത്ത് ഓട്ടോ സ്റ്റാൻഡുകളൊന്നുമില്ല</string>
+
+    <string name="First_Select_the_Auto_Stand">ആദ്യം വാഹന സ്റ്റാൻഡ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="Permission_denied">അനുമതി നിഷേധിച്ചു</string>
+    <string name="invalid_request">അസാധുവായ അഭ്യർത്ഥന</string>
+    <string name="time_expired">സമയം കാലഹരണപ്പെട്ടു</string>
+    <string name="Empty_fields">എല്ലാം ചേർക്കുക</string>
+    <string name="Uploading_data_failed">വിവരങ്ങൾ അപ്‌ലോഡുചെയ്യുന്നത് പരാജയപ്പെട്ടു</string>
+    <string name="upload_profile_image_failed">പ്രൊഫൈൽ ചിത്രം അപ്‌ലോഡുചെയ്യുന്നത് പരാജയപ്പെട്ടു</string>
+    <string name="Invalid_Code">അസാധുവായ കോഡ്</string>
+    <string name="phone_field_is_empty">ഫോൺ ഫീൽഡ് ശൂന്യമാണ്</string>
+    <string name="phone_field_is_invalid">ഫോൺ ഫീൽഡ് അസാധുവാണ്</string>
+    <string name="verification_completed">വിജയകരമായി പരിശോധിച്ചു</string>
+    <string name="failed_to_login">ലോഗിൻ ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു</string>
+    <string name="failed_to_change">മാറ്റുന്നതിൽ പരാജയപ്പെട്ടു</string>
+    <string name="uploaded">അപ്‌ലോഡു ചെയ്‌തു</string>
+    <string name="existing_account_use_login">നിലവിലുള്ള അക്കൗണ്ട് അതിനാൽ ലോഗിൻ ഉപയോഗിക്കുക</string>
+    <string name="Failed_to_find_your_number">ഓട്ടോ സ്റ്റാൻഡിൽ നിങ്ങളുടെ നമ്പർ കണ്ടെത്തുന്നതിൽ പരാജയപ്പെട്ടു, ദയവായി നോമിനിയെ ബന്ധപ്പെടുക</string>
+
+    <string name="contact_with">യാത്രക്കാരനെ ബന്ധപ്പെടുക</string>
+    <string name="call_traveller">ഫോൺ വിളിക്കുക</string>
+    <string name="navigate_traveller">മാപ്പ് ഉപയോഗിക്കുക</string>
+
+    <string name="payment_method">പണം കൊടുക്കൽ രീതി : </string>
+    <string name="travel_rate">യാത്രക്കാരന്റെ യാത്രാ നിരക്ക് : </string>
+    <string name="rupees">രൂപ</string>
+
+    <string name="call_now">ഫോൺ വിളിക്കുക</string>
+    <string name="start_navigation">ഗതിനിയന്ത്രണം തുടങ്ങാം</string>
+    <string name="yes">ശരി</string>
+    <string name="are_you_sure">യാത്ര അവസാനിച്ചു എന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ ?</string>
+
+    <string name="waiting_for_route">റൂട്ടിനായി കാത്തിരിക്കുക</string>
+
+    <string name="hire_mode_on">ഓട്ടം തിരയുന്നു</string>
+    <string name="hire_mode_description">ഹേ ഡ്രൈവർ… നിങ്ങൾ ഇപ്പോൾ യാത്രക്കാരനെ തിരയുന്നു</string>
+    <string name="hire_off">ഓഫ് ചെയുക</string>
+
+    <string name="verify_empty">കോഡ് ശൂന്യമാണ്</string>
+    <string name="no_account">നിങ്ങൾക്ക് അക്കൗണ്ടില്ല</string>
+
+    <string name="waringText_1">നിങ്ങളും നിങ്ങളുടെ യാത്രക്കാരനും തമ്മിലുള്ള ദൂരം ഏകദേശം</string>
+    <string name="waringText_2">km ആണ് യാത്ര പൂർത്തിയാക്കാൻ യാത്രക്കാരന്റെ അരികെ എത്തുക</string>
+
+    <string name="warning_text_history">യാത്രാ ചരിത്രമൊന്നുമില്ല</string>
+
+    <string name="test_mode">Test Mode</string>
+    <string name="production_mode">Production Mode</string>
+
+    <string name="no_ready">നെറ്റ്‌വർക്ക് പ്രശ്‌നം</string>
+
+    <string name="warning">മുന്നറിയിപ്പ്</string>
+    <string name="warning_sub_text">നാവിഗേഷൻ വിൻഡോയിൽ നിന്ന് പുറത്തുകടക്കുമെന്ന് ഉറപ്പാണ്</string>
+
+    <string name="Verify_Your_Phone_Number">നിങ്ങളുടെ ഫോൺ നമ്പർ പരിശോധിച്ചുറപ്പിക്കുന്നു</string>
+    <string name="Enter_your_OTP_code_here">നിങ്ങളുടെ ഒടിപി കോഡ് ഇവിടെ നൽകുക</string>
+    <string name="Verify_Account">അക്കൗണ്ട് പരിശോധിക്കുക</string>
+    <string name="terms_and_conditions">ഒരു അക്കൗണ്ട് സൃഷ്ടിക്കുന്നതിലൂടെ ഞാൻ നിങ്ങളുടെ നിബന്ധനകളും വ്യവസ്ഥകളും സ്വീകരിക്കും</string>
+    <string name="create_account">അക്കൗണ്ട് സൃഷ്ടിക്കുക</string>
+    <string name="already_have_an_account">ഇതിനകം ഒരു അക്കൗണ്ട് ഉണ്ടോ</string>
+    <string name="user_name">താങ്കളുടെ പേര്</string>
+    <string name="phone_number">ഫോൺ നമ്പർ</string>
+    <string name="your_age">നിങ്ങളുടെ പ്രായം</string>
+    <string name="auto_number_kl_00_0000">വാഹന നമ്പർ</string>
+    <string name="working_time">പ്രവർത്തന സമയം</string>
+    <string name="image">image</string>
+    <string name="end">വരെ</string>
+    <string name="start">മുതൽ</string>
+    <string name="phone_number_2">ഫോൺ നമ്പർ</string>
+    <string name="welcome_back">തിരികെ സ്വാഗതം</string>
+    <string name="signin">പരിശോധിക്കുക</string>
+    <string name="call_nominee">നോമിനിയെ വിളിക്കുക</string>
+    <string name="confirm">സ്ഥിരീകരിക്കുക</string>
+    <string name="select_your_stand">സ്റ്റാൻഡ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="customer_view">യാത്രക്കാരൻ</string>
+    <string name="aye_auto">ഏയ് ഓട്ടോ ഡ്രൈവർ</string>
+    <string name="history">യാത്ര ചരിത്രം</string>
+    <string name="edit">പ്രൊഫൈൽ എഡിറ്റ്</string>
+    <string name="profile">പ്രൊഫൈൽ</string>
+    <string name="hiring_mode">യാത്രക്കാരനെ വിളിക്കുക</string>
+    <string name="cancel">റദ്ദാക്കുക</string>
+    <string name="accept">അംഗീകരിക്കുക</string>
+    <string name="contact">ബന്ധപ്പെടുക</string>
+    <string name="arrive">എത്തിച്ചേർന്നു</string>
+    <string name="trip_ends">യാത്ര അവസാനിച്ചു</string>
+    <string name="searching_customer">യാത്രക്കാരനെ തിരയുന്നു</string>
+    <string name="generating_otp_code">OTP കോഡ് സൃഷ്ടിക്കുന്നു</string>
+    <string name="verifying_the_number">നമ്പർ പരിശോധിച്ചുറപ്പിക്കുന്നു</string>
+    <string name="about_us_description">Logcat solutions puts together a bunch of passionate minds to transform your visions into reality imparting an awesome digital experience for your users. From website design, development, scalable mobile apps to SaaS platforms, the solution we engineer accelerate efficiency and fuel growth for our clients. We are committed to achieving and pushing the level of performance at all times.</string>
+
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/basenavigator"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="logcat.ayeautoapps.ayeautodriver2.SplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreen_to_welcomePage"
+            app:destination="@id/welcomePage"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/splashScreen"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashScreen_to_mainMenu"
+            app:destination="@id/mainMenu"
+            app:popUpTo="@id/splashScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomePage"
+        android:name="logcat.ayeautoapps.ayeautodriver2.WelcomePage"
+        android:label="fragment_welcome_page"
+        tools:layout="@layout/fragment_welcome_page" >
+        <action
+            android:id="@+id/action_welcomePage_to_signUpFragment"
+            app:destination="@id/signUpFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_welcomePage_to_mainMenu"
+            app:destination="@id/mainMenu"
+            app:popUpTo="@id/welcomePage"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="logcat.ayeautoapps.ayeautodriver2.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_welcomePage"
+            app:destination="@id/welcomePage"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/welcomePage"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_signUpFragment_to_standSelectionFragment"
+            app:destination="@id/standSelectionFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"
+            app:popUpTo="@id/standSelectionFragment" />
+        <argument
+            android:name="standDetails"
+            app:argType="string"
+            android:defaultValue="stand details" />
+        <argument
+            android:name="phoneNumber"
+            app:argType="string"
+            android:defaultValue="phone number" />
+        <action
+            android:id="@+id/action_signUpFragment_to_verificationFragment"
+            app:destination="@id/verificationFragment"
+            app:popUpTo="@id/verificationFragment" />
+        <argument
+            android:name="standMode"
+            app:argType="boolean"
+            android:defaultValue="true" />
+        <argument
+            android:name="standNominee"
+            app:argType="long"
+            android:defaultValue="1234567890L" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainMenu"
+        android:name="logcat.ayeautoapps.ayeautodriver2.MainMenu"
+        android:label="fragment_main_menu"
+        tools:layout="@layout/fragment_main_menu" />
+    <fragment
+        android:id="@+id/standSelectionFragment"
+        android:name="logcat.ayeautoapps.ayeautodriver2.StandSelectionFragment"
+        android:label="fragment_stand_selection"
+        tools:layout="@layout/fragment_stand_selection" >
+        <action
+            android:id="@+id/action_standSelectionFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment"
+            app:popUpTo="@id/signUpFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/verificationFragment"
+        android:name="logcat.ayeautoapps.ayeautodriver2.VerificationFragment"
+        android:label="fragment_verification"
+        tools:layout="@layout/fragment_verification" >
+        <action
+            android:id="@+id/action_verificationFragment_to_mainMenu"
+            app:destination="@id/mainMenu"
+            app:popUpTo="@id/verificationFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_verificationFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment"
+            app:popUpTo="@id/signUpFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

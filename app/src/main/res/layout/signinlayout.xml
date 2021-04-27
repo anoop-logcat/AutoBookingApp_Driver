@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="250dp"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_back"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle">
+
+        <LinearLayout
+            android:id="@+id/signInConfirmLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/SignInLayout"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/signInEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/signInConfirmButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:text="@string/signin" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/signInVerifyLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <in.aabhasjindal.otptextview.OtpTextView
+                android:id="@+id/otpEditTextForSignInVerify"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimary"
+                app:box_margin_right="10dp"
+                app:height="40dp"
+                app:width="40dp"
+                app:otp_box_background="@drawable/borderlayoutstyle"
+                app:length="6"
+                app:otp_text_size="20dp"/>
+
+            <Button
+                android:id="@+id/signInConfirmButton_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:text="@string/Verify_Account" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

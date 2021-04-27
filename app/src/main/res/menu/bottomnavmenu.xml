@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigationFragment"
+        android:title="@string/customer_view"
+        android:icon="@drawable/navigation_page_icon"
+        />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:title="@string/profile"
+        android:icon="@drawable/profile_nav_icon" />
+</menu>

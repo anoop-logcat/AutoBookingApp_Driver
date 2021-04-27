@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".VerificationFragment">
+
+    <ImageButton
+        android:id="@+id/closeForVerify"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/close_icon"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title_verification_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/Verify_Your_Phone_Number"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title_2_verification_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/Enter_your_OTP_code_here"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/message_vector"/>
+
+        <in.aabhasjindal.otptextview.OtpTextView
+            android:id="@+id/otpEditTextForVerify"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            app:box_margin_right="10dp"
+            app:height="50dp"
+            app:width="50dp"
+            app:otp_box_background="@drawable/borderlayoutstyle"
+            app:length="6"
+            app:otp_text_size="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/verifyButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:text="@string/Verify_Account"/>
+
+        <TextView
+            android:id="@+id/terms_and_condition_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/terms_and_conditions"/>
+
+    </LinearLayout>
+
+</FrameLayout>

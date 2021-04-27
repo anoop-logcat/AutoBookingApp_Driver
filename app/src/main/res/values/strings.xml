@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Taksowka</string>
+
+    <string name="notification_channel_default">driver_auto_notification_channel_id</string>
+    <string name="hire_notification_channel_default">hire_notification_channel_id</string>
+
+    <string name="MAP_KEY_TOKEN">sk.eyJ1IjoibG9nY2F0MjAyMCIsImEiOiJja2gxeWhvamMwOWw4MzBsc2huaTNzeHRwIn0.P5nQbouX_frnt5w-l58MPg</string>
+    <string name="MAP_STREET_STYLE">mapbox://styles/logcat2020/ckh1ykb8g08mq1alebrijatai</string>
+    <string name="TILESET_ID">mapbox.mapbox-streets-v8</string>
+    <string name="DESTINATION_ICON_ID">DESTINATION_ICON_ID</string>
+    <string name="SOURCE_ICON_ID">SOURCE_ICON_ID</string>
+    <string name="stand_details">stand details</string>
+
+    <string name="Privacy_Policy">Privacy Policy</string>
+    <string name="Help_Center">Help Center</string>
+    <string name="About_Us">About Us</string>
+    <string name="Log_Out">Log Out</string>
+
+    <string name="settings">Settings</string>
+
+    <string name="contact_us">Contact Us</string>
+    <string name="warning_text">no auto stand in this region</string>
+    <string name="yes">Confirm</string>
+
+    <string name="First_Select_the_Auto_Stand">First Select the Auto Stand</string>
+    <string name="Permission_denied">Permission denied</string>
+    <string name="invalid_request">invalid request</string>
+    <string name="time_expired">time expired</string>
+    <string name="Empty_fields">Empty fields</string>
+    <string name="Uploading_data_failed">Uploading data failed</string>
+    <string name="upload_profile_image_failed">upload profile image failed</string>
+    <string name="Invalid_Code">Invalid Code</string>
+    <string name="phone_field_is_empty">phone field is empty</string>
+    <string name="phone_field_is_invalid">phone field is invalid</string>
+    <string name="verification_completed">Successfully Verified</string>
+    <string name="failed_to_login">failed to login</string>
+    <string name="existing_account_use_login">existing account use login</string>
+    <string name="failed_to_change">Failed to change</string>
+    <string name="uploaded">uploaded</string>
+    <string name="Failed_to_find_your_number">failed to find your number in auto stand please contact the nominee</string>
+
+    <string name="contact_with">Contact With…</string>
+    <string name="call_traveller">Call Traveller</string>
+    <string name="navigate_traveller">Navigate Traveller</string>
+
+    <string name="payment_method">Payment Method : </string>
+    <string name="travel_rate">Travel Charge For Customer : </string>
+    <string name="rupees">rupees</string>
+
+    <string name="call_now">Call Now</string>
+    <string name="start_navigation">Start Navigation</string>
+
+    <string name="waiting_for_route">Please wait for the route</string>
+
+    <string name="waringText_1">The distance between you and your customer is about</string>
+    <string name="waringText_2">km Get close to your customer to finish the travel</string>
+
+    <string name="verify_empty">code empty</string>
+    <string name="no_account">No Account</string>
+
+    <string name="no_ready">network problem</string>
+    <string name="warning_text_history">No previous travel history</string>
+
+    <string name="test_mode">Test Mode</string>
+    <string name="production_mode">Production Mode</string>
+
+    <string name="warning">Warning</string>
+    <string name="warning_sub_text">Are sure for exiting navigation window</string>
+
+    <string name="hire_mode_on">Hire Mode On</string>
+    <string name="hire_mode_description">Hey Driver… you now hiring the customer</string>
+    <string name="hire_off">Hire off</string>
+
+    <string name="Verify_Your_Phone_Number">Verify Your Phone Number</string>
+    <string name="Enter_your_OTP_code_here">Enter your OTP code here</string>
+    <string name="Verify_Account">Verify Account</string>
+    <string name="terms_and_conditions">By creating an account you will accept our terms and conditions</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="user_name">user name</string>
+    <string name="phone_number">phone number</string>
+    <string name="your_age">your age</string>
+    <string name="auto_number_kl_00_0000">auto number</string>
+    <string name="working_time">Working Time</string>
+    <string name="image">image</string>
+    <string name="end">end time</string>
+    <string name="start">start time</string>
+    <string name="phone_number_2">Phone Number</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="signin">sign in</string>
+    <string name="call_nominee">Call Nominee</string>
+    <string name="confirm">Confirm</string>
+    <string name="select_your_stand">Select Your Stand</string>
+    <string name="customer_view">Hire Preview</string>
+    <string name="aye_auto">Aye Auto Driver</string>
+    <string name="history">History</string>
+    <string name="edit">Edit Profile</string>
+    <string name="profile">Profile</string>
+    <string name="are_you_sure">Are you sure for trip end ?</string>
+    <string name="hiring_mode">Call Traveller</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+    <string name="contact">Contact</string>
+    <string name="arrive">arrived</string>
+    <string name="trip_ends">Trip Ends</string>
+    <string name="searching_customer">Searching Traveller</string>
+    <string name="generating_otp_code">Generating OTP Code</string>
+    <string name="verifying_the_number">Verifying the number</string>
+    <string name="about_us_description">Logcat solutions puts together a bunch of passionate minds to transform your visions into reality imparting an awesome digital experience for your users. From website design, development, scalable mobile apps to SaaS platforms, the solution we engineer accelerate efficiency and fuel growth for our clients. We are committed to achieving and pushing the level of performance at all times.</string>
+
+</resources>

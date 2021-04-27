@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settingnavigator"
+    app:startDestination="@id/settingMenu">
+
+    <fragment
+        android:id="@+id/settingMenu"
+        android:name="logcat.ayeautoapps.ayeautodriver2.settings.SettingMenu"
+        android:label="fragment_setting_menu"
+        tools:layout="@layout/fragment_setting_menu" >
+        <action
+            android:id="@+id/action_settingMenu_to_privacyPolicy"
+            app:destination="@id/privacyPolicy"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_settingMenu_to_termsConditons"
+            app:destination="@id/termsConditons"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_settingMenu_to_helpCenter"
+            app:destination="@id/helpCenter"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_settingMenu_to_aboutUs"
+            app:destination="@id/aboutUs"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/privacyPolicy"
+        android:name="logcat.ayeautoapps.ayeautodriver2.settings.PrivacyPolicy"
+        android:label="fragment_privacy__policy"
+        tools:layout="@layout/fragment_privacy__policy" />
+    <fragment
+        android:id="@+id/aboutUs"
+        android:name="logcat.ayeautoapps.ayeautodriver2.settings.AboutUs"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/helpCenter"
+        android:name="logcat.ayeautoapps.ayeautodriver2.settings.HelpCenter"
+        android:label="fragment_help__center"
+        tools:layout="@layout/fragment_help__center" />
+    <fragment
+        android:id="@+id/termsConditons"
+        android:name="logcat.ayeautoapps.ayeautodriver2.settings.TermsConditons"
+        android:label="fragment_terms__conditons"
+        tools:layout="@layout/fragment_terms__conditons" />
+</navigation>
